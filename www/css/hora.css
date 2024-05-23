@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+   
+    background-color: #2a2a2a;
+}
+
+.fundo1{
+    width: 100vw;
+    height: 120vw;
+    position: fixed;
+    top: 0;
+    background: 
+    linear-gradient(rgba(3,0,0,0.5), rgba(0,0,0,5)),
+    url('xique-xique.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.topo{
+  width: 100vw;
+  height: 8vh;
+  background-color: #ffffff00;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.setaVoltar{
+    width: 15vw;
+    height: 100%;
+    border: none;
+    background-color: #00000000;
+    background-image: url("Seta.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 6%;
+    float: inline-start;
+  }
+
+.xique-xique{
+    width: 40vw ;
+    height: 25vh;
+    background-image: url("xique-xiquelove.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 100%;
+
+    position: fixed;
+    top: 10%;
+    left: 10%;
+}
+
+.informacoesPrivilegiadas{
+    width: 45vw;
+    height: 25vh;
+    position: fixed;
+    top: 10%;
+    left: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.tituloLocal{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sobreLocal{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20%;
+}
+
+.propagrande{
+   width: 80vw;
+   height: 7vh;
+   background-color: #222222;
+   position: fixed;
+   top: 40%;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.vousDias{
+    width: 100vw;
+    height: 10vh ;
+    background-color: #2a2a2a;
+    position: fixed;
+    top: 49%;
+    display: flex;
+}
+
+.vousDias div{
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dias{
+    font-size: 30px;
+    color: #1f86b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 1%;
+}
+
+.diaData{
+    font-size: 20px;
+    color: #1f86b2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+.hoje{
+   font-size: 30px;
+   color: #fb7a03;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   height: 1%;
+}
+
+.hojeDia{
+   font-size: 20px;
+   color: #fb7b036e;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.vousHorarios{
+    width: 100vw;
+    height: 42vh ;
+    background-color: #313131e7;
+    position: fixed;
+    top: 59%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horariosVoos{
+    width: 85vw;
+    height: 35vh ;
+    background-color: #222222;
+}
+
+.nomeLogo{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nomeEmpresa{
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgba(245, 245, 245, 0.733);
+    font-size: 24px;
+}
+
+.logo{
+    width: 60px;
+    position: fixed;
+    left: 10%;
+}
+
+hr{
+    width: 70vw;
+    border: 1px solid #fb7a03;;
+}
+
+.btnProximo{
+    width: 30%;
+    height: 70%;
+    border: 1px solid #1f86b2;
+    background-color: #222222;
+    color: #1f86b2 ;
+    margin-right: 2%;
+}
+
+.irPrincipal{
+    position: fixed;
+    width: 50vw;
+    height: 7vh;
+    border: 1px solid #1f86b2;
+    background-color: #222222;
+    color: #1f86b2;
+    top: 75%;
+    left: 25%; 
+}
+
+.propragrando{
+    width: 20%;
+}
+

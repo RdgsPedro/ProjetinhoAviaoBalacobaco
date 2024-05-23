@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="cordova.js"></script>
+    <link rel="stylesheet" href="css/partePrincipal.css">
+    <script src="components/loader.js"></script>
+    <script>
+    </script>
+</head>
+<body onload="Carregar()">
+
+     <div class="topo">
+        <a href="Horarios.html"><button type="button" class="setaVoltar"><img src="seta.png" class="setaVoltar"></button></a>
+    <h1>Escolha de Assentos</h1>
+  </div>
+
+    <div class="fundoGeral">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="grid-container">
+              
+              <div class="grid-item"></div>
+              <div class="grid-item">1</div>
+              <div class="grid-item">2</div>
+              <div class="grid-item">3</div>
+              <div class="grid-item"></div>
+              <div class="grid-item">4</div>
+              <div class="grid-item">5</div>
+              <div class="grid-item">6</div>
+              <div class="grid-item"></div>
+              <div class="grid-item">7</div>
+              <div class="grid-item">8</div>
+              <div class="grid-item">9</div>
+             
+              <div class="grid-item">A</div>
+              <div class="grid-item"><button type="button" class="assentos" id="a1" onclick="VerReserva(id)">A1</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="a2" onclick="VerReserva(id)">A2</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="a3" onclick="VerReserva(id)">A3</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="a4" onclick="VerReserva(id)">A4</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="a5" onclick="VerReserva(id)">A5</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="a6" onclick="VerReserva(id)">A6</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="a7" onclick="VerReserva(id)">A7</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="a8" onclick="VerReserva(id)">A8</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="a9" onclick="VerReserva(id)">A9</button></div>
+            
+              <div class="grid-item">B</div>
+              <div class="grid-item"><button type="button" class="assentos" id="b1" onclick="VerReserva(id)">B1</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="b2" onclick="VerReserva(id)">B2</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="b3" onclick="VerReserva(id)">B3</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="b4" onclick="VerReserva(id)">B4</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="b5" onclick="VerReserva(id)">B5</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="b6" onclick="VerReserva(id)">B6</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="b7" onclick="VerReserva(id)">B7</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="b8" onclick="VerReserva(id)">B8</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="b9" onclick="VerReserva(id)">B9</button></div>
+
+              <div class="grid-item">C</div>
+              <div class="grid-item"><button type="button" class="assentos" id="c1" onclick="VerReserva(id)">C1</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="c2" onclick="VerReserva(id)">C2</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="c3" onclick="VerReserva(id)">C3</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="c4" onclick="VerReserva(id)">C4</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="c5" onclick="VerReserva(id)">C5</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="c6" onclick="VerReserva(id)">C6</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="c7" onclick="VerReserva(id)">C7</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="c8" onclick="VerReserva(id)">C8</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="c9" onclick="VerReserva(id)">C9</button></div>
+
+              <div class="grid-item">D</div>
+              <div class="grid-item"><button type="button" class="assentos" id="d1" onclick="VerReserva(id)">D1</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="d2" onclick="VerReserva(id)">D2</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="d3" onclick="VerReserva(id)">D3</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="d4" onclick="VerReserva(id)">D4</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="d5" onclick="VerReserva(id)">D5</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="d6" onclick="VerReserva(id)">D6</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="d7" onclick="VerReserva(id)">D7</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="d8" onclick="VerReserva(id)">D8</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="d9" onclick="VerReserva(id)">D9</button></div>
+
+              <div class="grid-item">E</div>
+              <div class="grid-item"><button type="button" class="assentos" id="e1" onclick="VerReserva(id)">E1</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="e2" onclick="VerReserva(id)">E2</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="e3" onclick="VerReserva(id)">E3</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="e4" onclick="VerReserva(id)">E4</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="e5" onclick="VerReserva(id)">E5</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="e6" onclick="VerReserva(id)">E6</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="e7" onclick="VerReserva(id)">E7</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="e8" onclick="VerReserva(id)">E8</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="e9" onclick="VerReserva(id)">E9</button></div>
+
+              <div class="grid-item">F</div>
+              <div class="grid-item"><button type="button" class="assentos" id="f1" onclick="VerReserva(id)">F1</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="f2" onclick="VerReserva(id)">F2</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="f3" onclick="VerReserva(id)">F3</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="f4" onclick="VerReserva(id)">F4</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="f5" onclick="VerReserva(id)">F5</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="f6" onclick="VerReserva(id)">F6</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="f7" onclick="VerReserva(id)">F7</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="f8" onclick="VerReserva(id)">F8</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="f9" onclick="VerReserva(id)">F9</button></div>
+
+              <div class="grid-item">G</div>
+              <div class="grid-item"><button type="button" class="assentos" id="g1" onclick="VerReserva(id)">G1</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="g2" onclick="VerReserva(id)">G2</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="g3" onclick="VerReserva(id)">G3</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="g4" onclick="VerReserva(id)">G4</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="g5" onclick="VerReserva(id)">G5</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="g6" onclick="VerReserva(id)">G6</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="g7" onclick="VerReserva(id)">G7</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="g8" onclick="VerReserva(id)">G8</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="g9" onclick="VerReserva(id)">G9</button></div>
+
+              <div class="grid-item">H</div>
+              <div class="grid-item"><button type="button" class="assentos" id="h1" onclick="VerReserva(id)">H1</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="h2" onclick="VerReserva(id)">H2</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="h3" onclick="VerReserva(id)">H3</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="h4" onclick="VerReserva(id)">H4</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="h5" onclick="VerReserva(id)">H5</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="h6" onclick="VerReserva(id)">H6</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="h7" onclick="VerReserva(id)">H7</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="h8" onclick="VerReserva(id)">H8</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="h9" onclick="VerReserva(id)">H9</button></div>
+
+              <div class="grid-item">I</div>
+              <div class="grid-item"><button type="button" class="assentos" id="i1" onclick="VerReserva(id)">I1</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="i2" onclick="VerReserva(id)">I2</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="i3" onclick="VerReserva(id)">I3</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="i4" onclick="VerReserva(id)">I4</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="i5" onclick="VerReserva(id)">I5</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="i6" onclick="VerReserva(id)">I6</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="i7" onclick="VerReserva(id)">I7</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="i8" onclick="VerReserva(id)">I8</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="i9" onclick="VerReserva(id)">I9</button></div>
+             
+              <div class="grid-item">J</div>
+              <div class="grid-item"><button type="button" class="assentos" id="j1" onclick="VerReserva(id)">J1</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="j2" onclick="VerReserva(id)">J2</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="j3" onclick="VerReserva(id)">J3</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="j4" onclick="VerReserva(id)">J4</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="j5" onclick="VerReserva(id)">J5</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="j6" onclick="VerReserva(id)">J6</button></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"><button type="button" class="assentos" id="j7" onclick="VerReserva(id)">J7</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="j8" onclick="VerReserva(id)">J8</button></div>
+              <div class="grid-item"><button type="button" class="assentos" id="j9" onclick="VerReserva(id)">J9</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nomeAssentos" >
+      <input type="text" class="txtNome" placeholder="Digite seu nome" id="textoInput" min="a" step="a">
+      <button type="button" class="enviarNome" onclick="CalcularValorTotal()">Comprar assentos</button>
+    </div>
+
+    <div class="visor" id="Reservado">
+      <h1>Reservados</h1>
+      
+    </div>
+
+    <div class="relatorio">
+        <table id="tabelaAssentos" style="display: none">
+          <thead>
+        <h3 id="Busca">Busca: <input type="text" id="barra-Pesquisa"><button onclick="Buscando()">Buscar</button></h3>
+              <tr>
+                  <th>Assento</th>
+                  <th>Status</th>
+                  <th>Ocupante</th>
+              </tr>
+          </thead>
+          <tbody id="corpoTabela">
+          </tbody>
+      </table>
+    </div>
+    <div class="baixo">
+      <button type="button" class="setaSubir"></button>
+      <div class="contadorAssentos" id="">X</div>
+      <h2 class="totalValor" id="Resultado">R$ 0,00</h2>
+      <button type="button" class="btnProximo" onclick="exibirTabela()">Exibir Tabela de Assentos</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2a2a;
+}
+
+.topo{
+    width: 100vw;
+    height: 8.5vh;
+    background-color: #131313;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    width: 80vw;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+.logoAeroLargo{
+    width: 20vw;
+    height: 8%;
+    top: 0;
+    left: 2%;
+    border: none;
+    position: fixed;
+    background-color: #141414;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.fundoXiqueXiqueXique{
+    width: 100vw;
+    height: 100%;
+    background-image: url("fundoIndex.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fraseEfeito{
+    width: 75vw;
+    height: 25vh;
+    position: fixed;
+    top: 10%;
+}
+
+.slogan{
+    text-align: left;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.mensagemPaia{
+    width: 75vw;
+    height: 6vh;
+    position: fixed;
+    top: 37%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.precinhoBom{
+    width: 75vw;
+    height: 10vh;
+    position: fixed;
+    top: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.msgBomPreco{
+    height: min-content;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: fixed;
+}
+
+.preco{
+    height: min-content;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: fixed;
+    top: 50%;
+}
+
+.querendoDemais{
+    width: 80vw;
+    height: 5vh;
+    border: none;
+    background-color: #fb7a03;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.querendoPouco{
+    width: 75vw;
+    height: 10vh;
+    position: fixed;
+    top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
